@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 1000px;
+}
+#tim{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+#welcome-section{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(green,aqua);
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+#span{
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: bold;
+}
+#bio-section{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding: 50px;
+
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:8px auto ;
+}
+.line1{
+    display: table-cell;
+    vertical-align: middle;
+}
+.lists{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+.listing{
+    float: left;
+    padding: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    size: 30px;
+}
